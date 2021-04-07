@@ -12,7 +12,7 @@ spec:
     kustomize:
       version: v4.0.5
   destination:
-    server: https://kubernetes.default.svc
+    server: https://argocd.octo-hatteras.com
   syncPolicy:
     automated:
       prune: true
